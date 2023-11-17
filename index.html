@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="index.css">
+        <title>Color Scheme Generator</title>
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <form id="form" class="form">
+            <div class="form__head">
+                <input type="color" id="color" class="form__input" value="#D4D828">
+                <div class="custom-select">
+                    <select id="select">
+                        <option>Monochrome</option>
+                        <option selected>Monochrome-dark</option>
+                        <option>Monochrome-light</option>
+                        <option>Analogic</option>
+                        <option>Complement</option>
+                        <option>Analogic-complement</option>
+                        <option>Triad</option>
+                        <option>Quad</option>
+                    </select>
+                </div>
+                <button type="submit" class="form__button">Get color scheme</button>
+            </div>
+            <div class="form__body">
+            </div>
+            <div class="popup__message">
+                Copied to clipboard.
+            </div>
+        <form>
+        <script src="index.js"></script>
+    </body>
+</html>
